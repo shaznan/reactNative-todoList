@@ -52,7 +52,6 @@ export default function MainPageContainer() {
     </View>
   );
   
-  // <ImageBackground source={{uri: "https://i.pinimg.com/originals/b1/97/5a/b1975ac8a44e19cf0edb1c13cc1a9507.jpg"}} style={styles.bgImage} />
   return (
     <ImageBackground blurRadius={1} source={{uri: "https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"}} style={styles.container}>
       <View style={styles.subContainer}>
